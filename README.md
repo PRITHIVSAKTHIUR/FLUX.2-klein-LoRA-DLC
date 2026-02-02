@@ -2,6 +2,9 @@
 
 > A Gradio-based demonstration for the black-forest-labs/FLUX.2-klein-9B model with lazy-loaded LoRA adapters for advanced image editing and style application. Supports specialized LoRAs like Klein-Delight-Style, with fast inference using bfloat16 and dynamic adapter loading to optimize memory. Features auto-resizing to multiples of 16, seed randomization, and guidance scale adjustments.
 
+<img width="1401" height="818" alt="Screenshot 2026-02-02 100856" src="https://github.com/user-attachments/assets/0e92b34c-c26d-42be-9d9d-759e446b69fb" />
+<img width="1368" height="649" alt="Screenshot 2026-02-02 100917" src="https://github.com/user-attachments/assets/84485865-3ed7-4ff4-886f-db0756ba73e4" />
+
 ## Features
 - **Image Upload Support**: Upload via file, webcam, or clipboard; auto-resizes to fit model requirements (up to 1024px, divisible by 16).
 - **Lazy LoRA Loading**: Adapters load on-demand only when selected, minimizing VRAM usage.
