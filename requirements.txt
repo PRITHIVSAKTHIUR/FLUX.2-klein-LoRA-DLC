@@ -7,10 +7,9 @@ torch==2.8.0
 bitsandbytes
 torchvision
 accelerate
-kernels # @vllm-flash-attn3
 torchao
 hf_xet
-gradio
+gradio #gradio@6
 numpy
 peft
 av
